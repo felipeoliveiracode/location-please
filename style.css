@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: "Poppins", serif;
+    font-size: 10px;
+}
+
+header {
+    margin: 3rem 0 5rem 5rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.menu li a {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #17233D;
+}
+
+.menu li a:hover {
+    color: #6FBF44;
+}
+
+.btn-signup {
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+    background-color: #314369;
+    border: 1px solid #1A2641;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.main-text {
+    width: 582px;
+}
+
+h1 {
+    font-size: 7.2rem;
+    font-weight: 700;
+    color: #161A49;
+    line-height: 8rem;
+}
+
+p {
+    color: #4B505A;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 5rem 0;
+}
+
+.link-learn {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #6FBF44;
+}
+
+@media (max-width:960px) {
+
+    .menu li a {
+        display: none;
+    }
+
+    header {
+        min-width: 100vw;
+    }
+
+    .btn-signup {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.4rem
+    }
+
+
+    .main-content {
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        width: 90vw;
+        margin: 0 auto;
+        line-height: 4rem;
+    }
+
+    p {
+        text-align: center;
+        width: 90vw;
+        margin: 3rem auto 3rem;
+
+    }
+
+    .link-learn {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .main-content img {
+        width: 90vw;
+    }
+}
