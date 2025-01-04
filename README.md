@@ -19,8 +19,8 @@ Este projeto foi desenvolvido como parte do curso oferecido pelo **DevClub** e t
 
 ## 🌐 Acesse o Projeto
 
-O projeto está disponível no GitHub. Clique no link abaixo para acessar:  
-[**Location Please**](https://github.com/felipeoliveiracode/location-please)
+O projeto está disponível no GitHub Pages. Clique no link abaixo para acessar:  
+[**Location Please**](https://felipeoliveiracode.github.io/location-please/)
 
 ---
 
@@ -32,5 +32,5 @@ Este projeto foi criado com fins educativos, permitindo a prática de conceitos 
 
 ### Autor  
 
-Desenvolvido por **[Felipe Oliveira]**, estudante de **Sistemas de Informação e Análise e Desenvolvimento de Sistemas** e parte da mentoria **DevClub**.  
+Desenvolvido por **Felipe Oliveira**, estudante de **Sistemas de Informação e Análise e Desenvolvimento de Sistemas** e parte da mentoria **DevClub**.  
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/felipeoliveiracode/)  
